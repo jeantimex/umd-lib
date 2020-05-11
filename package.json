@@ -1,6 +1,6 @@
 {
   "name": "my-umd-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Another JavaScript UMD library",
   "main": "dist/umd-lib.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/jeantimex/umd-lib.git"
   },
-  "keywords": ["umd", "library"],
+  "keywords": [
+    "umd",
+    "library"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
