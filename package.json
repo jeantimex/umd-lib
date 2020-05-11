@@ -1,5 +1,5 @@
 {
-  "name": "@jeantimex/umd-lib",
+  "name": "my-umd-library",
   "version": "0.0.0",
   "description": "Another JavaScript UMD library",
   "main": "dist/umd-lib.js",
