@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/jeantimex/umd-lib.git"
   },
-  "keywords": [],
+  "keywords": ["umd", "library"],
   "author": "",
   "license": "MIT",
   "bugs": {
