@@ -1,6 +1,6 @@
 {
   "name": "my-umd-library",
-  "version": "0.0.0",
+  "version": "1.0.3",
   "description": "Another JavaScript UMD library",
   "main": "dist/umd-lib.js",
   "scripts": {
