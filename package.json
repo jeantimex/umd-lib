@@ -1,0 +1,44 @@
+{
+  "name": "umd-lib",
+  "version": "0.0.0",
+  "description": "Another JavaScript UMD library",
+  "main": "dist/umd-lib.js",
+  "scripts": {
+    "build:browser": "webpack && cp dist/umd-lib.js examples/browser",
+    "build:node": "webpack && cp dist/umd-lib.js examples/node/ && node examples/node/example.js",
+    "build": "webpack",
+    "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeantimex/umd-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeantimex/umd-lib/issues"
+  },
+  "homepage": "https://github.com/jeantimex/umd-lib#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.5",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "babel-loader": "^8.1.0",
+    "husky": "^4.2.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
